@@ -1,0 +1,23 @@
+SetEnv PHP_VER 5
+
+
+
+
+RewriteEngine On
+
+
+RewriteRule ^([A-Za-z0-9]+)-([a-zA-Z0-9'éèëà-]+)\.html$ index.php?p=$1&l=$2 [L]
+RewriteRule ^([A-Za-z0-9_]+)-([A-Za-z0-9-à]+)_([A-Za-z0-9-à]+)\.html$ index.php?p=$1&l=$2&r=$3 [L]
+RewriteRule ^([A-Za-z0-9_]+)-([A-Za-z0-9-]+)_([A-Za-z0-9-]+)_([A-Za-z0-9-@.]+)\.html$ index.php?p=$1&l=$2&r=$3&s=$4 [L]
+RewriteRule ^([A-Za-z0-9_]+)-([A-Za-z0-9-]+)_([A-Za-z0-9-]+)_([A-Za-z0-9-]+)_([A-Za-z0-9-]+)\.html$ index.php?p=$1&l=$2&r=$3&s=$4&t=$5 [L]
+RewriteRule ^(.*)\.html$ index.php?p=$1 [L]
+
+#ErrorDocument 404 http://www.akoubayo.fr
+
+RedirectPermanent /Arbre-de-noel.html http://akoubayo.fr/pro-arbre-de-noel.html
+RedirectPermanent /animation-commerciale.html http://akoubayo.fr/pro-centre-commercial.html
+RedirectPermanent /Mariages.html http://akoubayo.fr
+RedirectPermanent /Animations-Resto.html http://akoubayo.fr/pro-restaurant.html
+RedirectPermanent /animation-enfant-mairie.html http://akoubayo.fr
+RedirectPermanent /Articles.html http://akoubayo.fr/article.html
+

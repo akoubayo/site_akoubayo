@@ -1,0 +1,277 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16 sept. 2015, 09:25:59
+    Author     : Akoubayo
+*/
+@font-face {
+    font-family: 'cac_champagneregular';
+    src: url('../../../webroot/police/LearningCurveDashed_OT-webfont.eot');
+    src: url('../../../webroot/police/cac_champagne-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../../webroot/police/cac_champagne-webfont.woff') format('woff'),
+         url('../../../webroot/police/cac_champagne-webfont.ttf') format('truetype'),
+         url('../../../webroot/police/cac_champagne-webfont.svg#cac_champagneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'learning_curve_dashed_proRg';
+    src: url('../../../webroot/police/LearningCurveDashed_OT-webfont.eot');
+    src: url('../../../webroot/police/LearningCurveDashed_OT-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../../webroot/police/LearningCurveDashed_OT-webfont.woff') format('woff'),
+         url('../../../webroot/police/LearningCurveDashed_OT-webfont.ttf') format('truetype'),
+         url('../../../webroot/police/LearningCurveDashed_OT-webfont.svg#learning_curve_dashed_proRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'sacramentoregular';
+    src: url('../../../webroot/police/sacramento-regular-webfont.eot');
+    src: url('../../../webroot/police/sacramento-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../../webroot/police/sacramento-regular-webfont.woff') format('woff'),
+         url('../../../webroot/police/sacramento-regular-webfont.ttf') format('truetype'),
+         url('../../../webroot/police/sacramento-regular-webfont.svg#sacramentoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'editionregular';
+    src: url('../../../webroot/police/edition_-webfont.eot');
+    src: url('../../../webroot/police/edition_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../../webroot/police/edition_-webfont.woff') format('woff'),
+         url('../../../webroot/police/edition_-webfont.ttf') format('truetype'),
+         url('../../../webroot/police/edition_-webfont.svg#editionregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'sugarcubesbook';
+    src: url('../../../webroot/police/sugarcubesregular-webfont.eot');
+    src: url('../../../webroot/police/sugarcubesregular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../../webroot/police/sugarcubesregular-webfont.woff') format('woff'),
+         url('../../../webroot/police/sugarcubesregular-webfont.ttf') format('truetype'),
+         url('../../../webroot/police/sugarcubesregular-webfont.svg#sugarcubesbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'sugarcubesbold';
+    src: url('../../../webroot/police/sugarcubesbold-webfont.eot');
+    src: url('../../../webroot/police/sugarcubesbold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../../webroot/police/sugarcubesbold-webfont.woff') format('woff'),
+         url('../../../webroot/police/sugarcubesbold-webfont.ttf') format('truetype'),
+         url('../../../webroot/police/sugarcubesbold-webfont.svg#sugarcubesbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body 
+{ 
+    background-image: url('../../../images/fond.png');
+    font-size: 18px;
+}
+
+h1
+{
+        font-size:350%;
+	font-family:'cac_champagneregular','learning_curve_dashed_proRg';
+	opacity:0.7;
+        border-bottom: 2px solid #e5e5e5;
+        width: 80%
+}
+.h2
+{
+        font-size:250%;
+	font-family:'cac_champagneregular','learning_curve_dashed_proRg';
+	opacity:0.7;
+        border-bottom: 2px solid #e5e5e5;
+        width: 80%
+}
+[class*="col-"] 
+{ 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    
+}
+.mg-none
+{
+    margin: 0px;
+}
+.mg-top-none
+{
+    margin-top: 0px;
+}
+.mg-bottom-none
+{
+    margin-bottom: 0px;
+}
+.border-left
+{
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.border-right
+{
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.border-radius
+{
+    border-radius: 6px;
+}
+img 
+{ 
+    width: 100%; 
+}
+.lutin
+{
+    width: 60%;
+    margin-left: 50%;
+}
+.well 
+{
+    background-color:#F2DEE7;
+    padding: 10px;
+} 
+.well2
+{
+    background-color: #CCC;
+}
+.well3
+{
+    background-color:#F2DEE7;
+} 
+.border-bottom-white
+{
+    border-bottom:solid 2px white
+}
+.borderImg{
+    border: solid 3px white;
+    border-bottom: none;
+    border-right: none;
+}
+.pd-bottom
+{
+    padding-bottom: 10px;
+}
+.pd-none
+{
+    padding: 0px;
+}
+.pd-top-none
+{
+    padding-top: 0px;
+}
+.pd-bottom-none
+{
+    padding-bottom: 0px;
+}
+.pd-left{
+    padding-left: 10px;
+}
+.btn-lg 
+{
+    width: 50px;
+    padding-left:14.5px;
+    height: 50px;
+    text-align: center;
+    border-radius: 25px;
+}
+.bg-color-none
+{
+    background: none;
+}
+
+.pos-fixed
+{
+    position: fixed;
+}
+
+.panel-gris {
+    border-color:  #009999;
+}
+.panel-gris > .panel-heading {
+  color: #fff;
+  background-color: #009999;
+  border-color: #009999;
+}
+.panel-gris > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #009999;
+}
+.panel-gris > .panel-heading .badge {
+  color: #009999;
+  background-color: #fff;
+}
+.panel-gris > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #009999;
+}
+
+.container2 {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+.container2 {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+}
+@media (min-width: 992px) {
+  .container2 {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container2 {
+    width: 1170px;
+  }
+}
+.panel-striped-pair > .panel-body:nth-of-type(1n) {
+    background-color:  #D7DDFD;
+}
+.panel-striped-impair > .panel-body:nth-of-type(2n) {
+    background-color:  #FDD7ED;
+}
+.panel-striped-1-none > .panel-body:nth-child(2) {
+    background:  none;
+}
+.cursor{
+   cursor:  pointer; 
+}
+.legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 20px;
+  font-size: 21px;
+  line-height: inherit;
+  color: #333;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+.legend1 {
+  display: block;
+  width: 100%;
+  padding: 0;
+  font-size: 21px;
+  line-height: inherit;
+  color: #333;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+}

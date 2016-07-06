@@ -1,0 +1,261 @@
+.info1{
+    display:inline-block;
+    width: 30%
+}
+.info2{
+    display:inline-block;
+    width: 30%
+}
+.info3{
+    display:inline-block;
+    width: 30%
+}
+.calendrier{
+    
+    margin:auto;
+    background:#ffffff;
+    width: 100%;
+    text-align:center;
+}
+.calendrier td{
+    border: 1px solid black;
+    vertical-align: top;
+    
+}
+.tdDay{
+    height: 75px;
+    background-color: white;
+    
+   
+}
+.tdDay1{
+    height: 75px;
+    background-color: green;
+ 
+}
+.tdDay1bis{
+    height: 75px;
+    background-color:  #006600;
+ 
+}
+.tdDay2{
+    height: 75px;
+    background-color:  #ff9900;
+ 
+}
+.tdDay2bis{
+    height: 75px;
+    background-color: #cc6600;
+ 
+}
+.tdDay3{
+    height: 75px;
+    background-color:   #000;
+ 
+}
+.tdDay3bis{
+    height: 75px;
+    background-color:  #000;
+ 
+}
+.spanTdDay{
+    display:inline-block;
+    width:100%;
+    background-color:#ccccff;
+    line-height: 20px;
+}
+
+.parent{
+    width:100%;
+    border-collapse: collapse;
+    text-align: center;
+ 
+}
+
+.parent td{
+   
+    border:1px dotted black;
+    height: 65px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.parent th{
+    border:1px solid black;
+    background-color:  #cc00cc;
+    color: white;
+    font-size: 16px;
+    font-weight: normal
+}
+.parent1{
+    
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 10px;
+    margin-top: 10px
+ 
+}
+
+.parent1 td{
+   
+    border:1px dotted black;
+    height: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.parent1 th{
+    border:1px solid black;
+    background-color:  #cc00cc;
+    color: white;
+    font-size: 16px;
+    font-weight: normal
+}
+.vert{
+    background-color: #99ff99
+}
+.rouge{
+    background-color: #ff6666
+}
+
+#vert{
+    background-color: #99ff99
+}
+#rouge{
+    background-color: #ff6666
+}
+#bleu{
+    background-color: #1883ba
+}
+#jaune{
+    background-color:  #cccc00
+}
+#noir{
+    background-color:  black
+}
+
+.menu{
+    margin-right: 10px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.spanForm{
+    display:inline-block;
+    width: 10%;
+    
+}
+
+.divBouton{
+    margin-top: -40px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%
+}
+.divBouton table{
+    margin-left:auto;
+    margin-right: auto;
+    color: #990099;
+    font-weight:  bold;
+}
+.divBouton td{
+    padding: 10px;
+}
+.divBouton img{
+    cursor: pointer;
+}
+.bouton1,.bouton2{
+    opacity: 0.5;
+}
+#pop{
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    position: absolute;
+    top:200px;
+    
+    display: none;
+    z-index: 999999990;
+    border: solid 1px black;
+}
+
+#pop #entete{
+    width: 100%;
+    height: 50px;
+    padding-top: 7px;
+    background-color: #990099;
+}
+
+#pop h2{
+    margin-top: 0px;
+    margin-left: 30px;
+    color: white;
+    opacity: 1;
+}
+
+#fermer{
+    display: inline-block;
+    width: 98%;
+    text-align: right;
+    color: #990099;
+    cursor: pointer;
+    margin-top:7px;
+    text-decoration:  underline;
+}
+
+#corpPop{
+    width: 85%;
+    border: solid 1px #ccccff;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+#backBlack{
+    background: black;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height:100%;
+    z-index: 9997;
+    opacity:0.5;
+}
+
+.spanForm1{
+   display:inline-block;
+   width: 20%;
+   margin-right: 20px;
+}
+.submit{
+    width: 20%;
+    display: inline-block;
+    margin-left: 133px;
+
+
+   
+}
+.form1{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form1  select {
+    width: 50%
+}
+
+.form1  input {
+    width: 50%
+}
+
+.form1  textArea {
+    width: 50%;
+    height: 70px;
+}
+
